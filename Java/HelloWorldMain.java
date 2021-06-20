@@ -1,7 +1,9 @@
+import com.jeffcrone.HelloWorldClass;
+
 public class HelloWorldMain
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello world!");
+		System.out.println(HelloWorldClass.helloWorld());
 	}
 }
